@@ -1,0 +1,10 @@
+#ignore the games folder as for testing there are games in there
+#intructions are givent to create these folders at runtime
+/games
+
+#ignore archives
+*.7z
+
+#svn folder
+.svn
+
