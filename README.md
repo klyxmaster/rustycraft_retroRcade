@@ -15,7 +15,7 @@ I've kept the installation process straightforward:
 4. Place your GBA ROM files into this "gba" folder, as indicated in the example script.
 
 **Most up to date releases:**
-[https://svn.riouxsvn.com/rustycraftrcade](https://svn.riouxsvn.com/rustycraftrcade)
+[https://github.com/klyxmaster/rustycraft_retroRcade](https://github.com/klyxmaster/rustycraft_retroRcade)
 
 And voilà, you're all set to dive into gaming nostalgia.
 
