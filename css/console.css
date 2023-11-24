@@ -1,0 +1,37 @@
+
+  body, html {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	background-color: black;
+	display: flex;
+	flex-direction: column; /* Stack children vertically */
+	align-items: center; /* Center children horizontally */
+	justify-content: center; /* Center children vertically */
+  }
+  #console_window {
+	width: 640px;
+	max-width: 100%; /* Ensures that the console window doesn't exceed the width of the screen */
+	height: 480px; /* Fixed height */
+	background-color: white; /* Placeholder for game window, can be changed or removed */
+	margin-bottom: 20px; /* Adjust the space between the console window and the image as needed */
+  }
+  #game {
+	width: 100%; /* Make the game fill the div */
+	height: 100%;
+	/* Additional styles for #game div if needed */
+  }
+  
+  .center-link {
+	display: flex;
+	justify-content: center; /* Centers the child horizontally */
+	align-items: center; /* Centers the child vertically */
+	text-align: center; /* Ensures the text inside the link is centered, if any */
+	margin-top: 20px; /* Space from the console window or other elements above */
+  }
+  
+  .center-link img {
+	max-width: 640px; /* Matches the width of your console window */
+	width: 100%; /* Makes the image responsive */
+	height: auto; /* Maintains the aspect ratio */
+  }
